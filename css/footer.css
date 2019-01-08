@@ -1,0 +1,27 @@
+footer{
+  padding: 30px;
+  text-align: center;
+  font-size: 14px;
+}
+footer p{
+  color: #777;
+  float: left;
+  padding: 10px;
+}
+footer li {
+  padding-right: 15px;
+}
+footer a{
+  color:   #fed136;
+}
+footer a:hover{
+  color: rgb(254, 197, 3);
+  text-decoration: underline;
+}
+footer ul{
+  float:right;
+  padding: 10px;
+}
+footer li{
+  float: left;
+}
