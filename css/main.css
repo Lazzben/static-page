@@ -19,7 +19,7 @@ section p{
   padding: 10px 20px;
   
 }
-.intro .icon span {
+.intro .icon .iconfont {
   color: white;
   font-size: 80px;
   border-radius: 50%;
@@ -54,16 +54,35 @@ section figcaption {
   margin-top: 10px;
   font-size: 22px;
 }
+figure a{
+  position: relative;
+}
 .baffle {
   position: absolute;
-  background:rgba(254, 209, 54, .9);
+  background:rgba(254, 209, 54, 0.9);
   height: 210px;
   width: 100%;
-  opacity: 0;
+  display: none;
 }
-section figure .baffle:hover {
-  opacity: 1;
-  cursor: pointer;
+.shutiao{
+  border:10px solid white;
+  height:50px;
+  border-radius:4px;
+  position:absolute;
+  left:calc(50% - 10px);
+  top: calc(50% - 25px);
+  
+}
+.hengtiao{
+  border:10px solid white;
+  width:50px;
+  border-radius:4px;
+  position:absolute;
+  left: calc(50% - 25px);
+  top: calc(50% - 10px) 
+}
+section figure a:hover .baffle {
+  display: block;
 }
 #about img {
   width: 150px;
@@ -111,7 +130,7 @@ section figure .baffle:hover {
 }
 #about li::before {
   content: '';
-  height: 100px;
+  height: 200px;
   border: #fed136 2px solid;
   position: absolute;
   top:150px;
@@ -159,6 +178,15 @@ section figure .baffle:hover {
   width: 1000px;
   display: block;
   padding: 0 100px;
+}
+
+#advertisment li{
+  float: left;
+  padding: 10px;
+  width: 25%;
+}
+#advertisment ul{
+  margin: 40px 0;
 }
 
 

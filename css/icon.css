@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "iconfont logo";
+  src: url('../icon/font_985780_km7mi63cihi.eot?t=1545807318834');
+  src: url('../icon/font_985780_km7mi63cihi.eot?t=1545807318834#iefix') format('embedded-opentype'),
+    url('../icon/t/font_985780_km7mi63cihi.woff?t=1545807318834') format('woff'),
+    url('../icon/font_985780_km7mi63cihi.ttf?t=1545807318834') format('truetype'),
+    url('../icon/font_985780_km7mi63cihi.svg?t=1545807318834#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+}
+.iconfont.iconfont-intro {
+  display: inline-block;
+  font-size: 40px;
+  padding: 0 5px;
+}
+.iconfont.iconfont-intro:hover {
+  color:  #fed136;
+}
+.icon-shop:before {
+  content: "\e887";
+}
+.icon-work:before{
+  content: "\e888";
+}
+.icon-service:before{
+  content: "\e8ab";
+}
+.icon-facebook:before{
+  content: "\e601";
+}
+.icon-twitter:before{
+  content: "\e6ee";
+}
+.icon-wechat:before {
+  content: "\e620";
+}
